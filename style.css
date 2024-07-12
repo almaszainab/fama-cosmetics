@@ -1,43 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-  * {
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-  }
-  .card {
-      border-radius: 20px !important;
-      padding: 32px !important;
-  }
-  .card-img-top {
-      border-radius: 20px !important;
-  } 
-  .bg-section {
-      background-color: rgb(241, 27, 70);
-  }
-  h4 {
-      font-size: 2.25rem;
-      background-color: white;
-  }
-  p {
-      font-size: 1.4rem !important;
-      background-color: white;
-  }
-  .btn-submit{
+/* Navbar */
+.navbar-brand {
+    font-family: "Permanent Marker", cursive;
+    font-size: 35px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(222, 0, 74),
+            #f867f8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.navbar-nav {
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: rgb(222, 0, 74);
+}
+
+.shopnow {
+    color: rgb(222, 0, 74);
+    border: 2px solid rgb(222, 0, 74);
+    background: transparent;
+    width: 100%;
+    transition: 1s;
+}
+
+.shopnow:hover {
     color: white;
-      background-color: rgb(241, 27, 70);
-      border-color: rgb(241, 27, 70);
-      width: 100% !important; 
-      border-radius: 10px;
-      
-  }
-  .btn-submit:hover{
-                   background-color:white;
-                     color: rgb(241, 27, 70)
-  }
-  .form-control {
-      height: 55px;
-      border-radius: 7px !important;
-      color: black;
-      background-color: white;
-  }
+    background-color: rgb(222, 0, 74);
+}
 
+/* Contact Section */
+.contact{
+    margin-top: 60px;
+}
+
+.card {
+    border-radius: 20px !important;
+    padding: 32px !important;
+}
+
+.card-img-top {
+    border-radius: 15px !important;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-family: signika;
+    font-weight: bold;
+    color: rgb(222, 0, 74);
+}
+
+h4 {
+    font-size: 2.25rem;
+    font-family: signika;
+    font-weight: bold;
+    color: rgb(222, 0, 74);
+}
+
+p {
+    font-size: 1.4rem !important;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.btn-submit {
+    color: rgb(222, 0, 74);
+    border: 2px solid rgb(222, 0, 74);
+    background: transparent;
+    width: 100%;
+    transition: 1s;
+
+}
+
+.btn-submit:hover {
+    color: white;
+    background-color: rgb(222, 0, 74);
+}
+
+.form-control {
+    height: 55px;
+    border-radius: 7px !important;
+    color: black;
+    background-color: white;
+}
