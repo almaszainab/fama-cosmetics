@@ -25,27 +25,28 @@
 }
 
 .nav-link:hover {
-    color: rgb(222, 0, 74);
+    color: crimson;
 }
 
-.shopnow {
-    color: rgb(222, 0, 74);
-    border: 2px solid rgb(222, 0, 74);
+.button {
+    color: crimson;
+    border: 2px solid crimson;
     background: transparent;
     width: 100%;
     transition: 1s;
 }
 
-.shopnow:hover {
+.button:hover {
     color: white;
-    background-color: rgb(222, 0, 74);
+    background-color: crimson;
+}
+
+.modal-title{
+    font-family: signika;
+    font-weight: bold;
 }
 
 /* Contact Section */
-.contact{
-    margin-top: 60px;
-}
-
 .card {
     border-radius: 20px !important;
     padding: 32px !important;
@@ -98,3 +99,9 @@ h5{
     color: black;
     background-color: white;
 }
+
+/* Footer */
+h5, strong{
+    color: crimson;
+}
+
